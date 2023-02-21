@@ -4,17 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+
+  body{
+    background-image: url('https://images.unsplash.com/photo-1566050984421-ccbd4fc76b79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2Vhc2hvcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    </style>
 </head>
 <body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Bookshop's name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          <a class="nav-link" href="#">Shop</a>
+          <a class="nav-link" href="#">Sign in</a>
+          <a class="nav-link" href="#">Sign up</a>
+          <a class="nav-link" href="#">Profile</a>
+          <a class="nav-link" href="#">My favourites</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- navbar -->
 
-<h2 style="border: 2px solid tomato;color: dodgerblue;" >Book shop</h2>
-<img src="/pics/books.jpg" alt="">
-<p style="background-color:tomato;">Далеко-далеко за <sub>subscript</sub> словесными горами <sup>super</sup> в стране гласных и <mark>eta ya</mark> согласных <del>ko'ngil</del> живут рыбные тексты. Семантика жаренные, <ins>Sherozbek</ins> грустный текстов переписали все безопасную. Предупреждал прямо свое даже но проектах заголовок, повстречался себя, залетают несколько маленькая инициал.</p>
+<h2>Book shop</h2>
 
+<!-- usage of map  -->
+<img src="/pics/Uzbek_Literature_Selection.jpg" usemap="#books" id="bookshop" alt="image of books" style="border: 3.5px solid;">
+<map name="#books">
+<area shape="rect" coords="1,1,120,150" href="/kechavakunduz.htm" alt="Kecha va kunduz">
+</map>
+<!-- usage of map  -->
 
+<strong><q>Read a book, may you also find someone who reads a book!</q>
+</strong>
 
-
-<q>Kitob o'qing, sizga ham kitob o'qiydigani uchrasin!</q>
+<!-- this link is for bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- this link is for bootstrap -->
 </body>
+<footer>
+    <p>
+        <a href="#bookshop">our bookshop</a>
+        If you want to contact developer <a href="https://t.me/tojimakhammatov_u">click here</a>
+    </p>
+</footer>
 </html>
